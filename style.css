@@ -1,0 +1,22 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.section {
+  min-height: 80vh;
+  padding: 80px 40px;
+  opacity: 0;
+  transform: translateY(40px);
+  transition: 0.8s ease;
+}
+
+.section.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+#about, #services, #contact {
+  background: white;
+  margin: 20px;
+  border-radius: 10px;
+}
